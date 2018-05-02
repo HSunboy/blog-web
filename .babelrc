@@ -1,0 +1,28 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false,
+                "targets":{
+                    "ios":10,
+                    "chrome":48
+
+                    
+                    
+                },
+                "debug": true,
+                "useBuiltIns":"usage"
+            }
+        ],
+        "react"
+    ],
+    "plugins": [
+        ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }],
+        ["syntax-dynamic-import"],
+        ["transform-decorators-legacy"],
+        ["react-hot-loader/babel"]
+        
+        //"react-hot-loader/babel" // 开启 React 代码的模块热替换(HMR)
+    ]
+}

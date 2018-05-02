@@ -1,0 +1,79 @@
+.header{
+	text-align: center;
+	height: 65px;
+	display: flex;
+	align-items: center;
+    
+    padding: 0 20px;
+    margin:0 auto;
+    max-width:1000px;
+}
+.header-aboutus{
+	color:rgba(0,0,0,.54);
+	font-size: 12px;
+	flex-grow: 1;
+	flex-basis: 0%;
+	text-align: left;
+}
+.header-login{
+	font-size: 14px;
+    letter-spacing: 3px;
+    text-indent: 3px;
+}
+.header-login:hover{
+	color:#018f69;
+}
+.header-button{
+
+	display: inline-block;
+	height: 37px;
+    line-height: 37px;
+    padding: 0 16px;
+    border: 1px solid #03a87c;
+    border-radius: 4px;
+
+}
+.header-button:hover{
+	color:#018f69;
+}
+.nav{
+	display: flex;
+	align-items: center;
+	margin:0 auto;
+    max-width:1000px;
+    text-align: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 20px;
+    color:rgba(0,0,0,.54);
+    font-size: 14px;
+}
+.nav-icon{
+	cursor: pointer;
+	font-size:16px;
+
+}
+.nav-icon:hover{
+	color:#333;
+}
+.nav-icon-disable{
+	cursor: unset;
+	font-size:16px;
+	color:rgba(0,0,0,.20);
+}
+.nav-item{
+	cursor: pointer;
+	margin-left:44px;
+	display: inline-block;
+}
+.nav-item:hover{
+	color:rgba(0,0,0,.74);
+
+}
+.nav-item:first-child{
+	margin-left:0px;
+}
+.nav-content{
+	overflow:hidden;
+	white-space:nowrap;
+}
