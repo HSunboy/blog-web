@@ -15,6 +15,7 @@ const devConfig={
 	devtool: 'inline-source-map',
 	devServer:{
 		contentBase:path.resolve(process.cwd(),"dist"),
+		host:"0.0.0.0",
 		port:19080,
 		compress:true,
 		hot: true
