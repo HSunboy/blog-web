@@ -10,6 +10,10 @@ const IndexView=Loadable({
 	loader: () => import('@/views/index'),
   	loading: Loading,
 })
+const DetailView=Loadable({
+	loader: () => import('@/views/article'),
+  	loading: Loading,
+})
 
 
 class Main extends Component {
@@ -21,6 +25,7 @@ class Main extends Component {
       	<XkNav />
 	    <div>
 	      <Route path="/index" component={IndexView}/>
+				<Route path="/detail/:id" component={DetailView}/>
 	    </div>
 	  </div>
     )

@@ -94,6 +94,9 @@ const req = {
     },
     "getArticle":function(params){
     	return promiseFunc("/blogService/v1/homepage/getarticleslist",params)
+    },
+    "getArticleDetail":function(params){
+    	return promiseFunc("/blogService/v1/apparticle/getarticle",params)
     }
 
 

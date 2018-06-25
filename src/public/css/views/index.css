@@ -45,6 +45,8 @@ a:hover{
 	line-height: 1.2;
 	color:rgba(0,0,0,.54);
 	margin-bottom: 22px;
+	max-height: 40px;
+	overflow: hidden;
 }
 .common-article_box{
 	margin-top:12px;
@@ -77,6 +79,7 @@ a:hover{
 }
 .small-article_content{
 	margin-left: 24px;
+	max-width: 250px;
 }
 .small-article_title{
 	line-height: 1.2;
@@ -85,6 +88,9 @@ a:hover{
 	font-size:16px;
 	color:rgba(0,0,0,.84);
 	margin-bottom: 4px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 .small-article_desc{
 	display: block;
@@ -92,6 +98,9 @@ a:hover{
 	line-height: 1.2;
 	color:rgba(0,0,0,.54);
 	margin-bottom: 24px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
 .common-article_item{
